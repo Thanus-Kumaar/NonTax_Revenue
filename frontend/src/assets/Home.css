@@ -1,10 +1,11 @@
+body{
+  background-color: rgb(211, 255, 201);
+}
 .home-main{
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  margin: 5px;
-  margin-top: 20px;
-  background-color: grey;
+  background-color: rgb(211, 255, 201);
   padding: 25px;
   padding-bottom: 10px;
   border-radius: 50px;
@@ -17,7 +18,7 @@
   border-radius: 100%;
   width: 300px;
   height: 300px;
-  background-color: brown;
+  background-color: rgb(5, 155, 255);
   animation: spin 2s ease-out, fade 0.5s ease-oute;
 }
 
@@ -41,38 +42,32 @@
   border-radius: 100%;
   width: 200px;
   height: 200px;
-  background-color: grey;
+  background-color: rgb(211, 255, 201);
   position: relative;
   left: -250px;
   top: 50px;
 }
-.outer-circle-final-small{
-  border-radius: 100%;
-  width: 180px;
-  height: 180px;
-  background-color: brown;
-  animation: spin 2s ease-out, fade 0.5s ease-oute;
-}
-.inner-circle-small{
-  border-radius: 100%;
-  width: 120px;
-  height: 120px;
-  background-color: grey;
-  z-index: 1;
-  position: relative;
-  top: 30px;
-  left: 30px;
-
+.country-round{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: rgb(5, 155, 255);
+  margin-top: 10px;
 }
 .countries{
-  background-color: grey;
   display: flex;
   flex-direction: row;
   justify-content: center;
   column-gap: 100px;
   padding: 20px;
   margin: 5px;
-  margin-top: 50px;
+
+}
+.global-2023{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: rgb(211, 255, 201);
   border-radius: 50px;
 }
 .country-div{

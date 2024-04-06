@@ -1,26 +1,42 @@
 <template>
-  <div class="a">
-    <div class="form">
-        <div class="button">
-            <div id="btn"></div>
-            <div><button type="button" class="toggle" onclick="login()">LOG IN </button></div>
-           <div><button type="button" class="toggle" onclick="register()">REGISTER </button></div>
+
+    <div class="container">
+
+        <div class="box2">
+            <span style="margin: 0px;font-size: 50px;color:black; font-family: 'Kanit', sans-serif; font-weight: bold;">Login</span>
+        </div> 
+        
+        <div class="box3">
+            <input type="text" class="username" id="username" placeholder="Username" style="margin-top  : 20px;" required>
+            <i class="fa-solid fa-user" style="color: #ffffff;"></i>
         </div>
-        <form  id="login" class="input">
-            <input type="text" class="input-field" placeholder="USER ID" required><br>
-            <input type="text" class="input-field" placeholder="ENTER PASSWORD" required><br>
-            <input type="checkbox" class="checkbox"><span>Remember password</span><br>
-            <button type="submit" class="sbutton">LOG IN</button>
-        </form>
-        <form id="register" class="input">
-            <input type="text" class="input-field" placeholder="USER ID" required><br>
-            <input type="email" class="input-field" placeholder="EMAIL ID" required>
-            <input type="text" class="input-field" placeholder="ENTER PASSWORD" required><br>
-            <input type="checkbox" class="checkbox"><span>I agree to the terms and conditions</span><br>
-            <button type="submit" class="sbutton">REGISTER</button>
-        </form>
+
+            
+        <div class="box4">
+            <input type="password" class="password" id="password" placeholder="Password" required>
+            <i class="fa-solid fa-lock" style="color: #ffffff;"></i>
+        </div>
+
+        <div class="box5">
+            <input type="submit" class="submit" value="Login">
+        </div>
+
+        
+        <div class="box6">
+            <div class="right">
+                <input type="checkbox" id="check" class="check">
+                <label for="check">Remember Me</label>
+            </div>
+            <div class="left">
+                <label><a href="#">Forget password?</a></label>
+            </div>
+        </div>
+        <div style="margin-left: 77px; margin-top: 35px; color: black; margin-bottom:60px;">
+            <a href="signin.html" style="color: black;font-size: 21px; ">Don't Have an Account?</a>
+        </div>
+        
+
     </div>
-  </div>
 </template>
 
 <script>
